@@ -50,7 +50,7 @@ function nextSequence(){
 
 
 function playSound(name){
-    var audio = new Audio("E:/The Simon Game/Simon Game/sounds/"+name+".mp3");
+    var audio = new Audio("/sounds/"+name+".mp3");
     audio.play();
 }
 
